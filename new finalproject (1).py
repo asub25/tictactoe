@@ -288,7 +288,7 @@ def main_menu():
     t.up()
     t.speed(0)
     t.goto(-200, 200)
-    t.write("TIC TAC TOE\n  By: Ash. S", font=("comic sans", 50, "bold"))
+    t.write("TIC TAC TOE", font=("comic sans", 50, "bold"))
     t.goto(-210, -20)
     t.write('  Click "i" for Instructions\n                     Or\n            "s" to start!',
             font=("comic sans", 25, "bold"))
